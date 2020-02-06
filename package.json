@@ -1,0 +1,23 @@
+{
+  "name": "@ylz/connector",
+  "version": "1.0.0",
+  "description": "REST connector for api endpoints",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "precommit": "npm run build",
+    "prebuild": "npm run remove-dist",
+    "build": "tsc",
+    "remove-dist": "rm -rf ./dist"
+  },
+  "dependencies": {
+    "@ylz/logger": "git+https://github.com/aytekinyaliz/ylz-logger#semver:^1.0.0",
+    "axios": "0.18.0"
+  },
+  "devDependencies": {
+    "typescript": "3.5.2"
+  }
+}
