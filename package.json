@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@ylz/logger": "git+https://github.com/aytekinyaliz/ylz-logger#semver:^1.0.0",
-    "axios": "0.18.0"
+    "axios": "0.19.2"
   },
   "devDependencies": {
     "typescript": "3.5.2"
