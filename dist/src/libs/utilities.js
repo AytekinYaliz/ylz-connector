@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const logger = require("@dan/dan-logger");
+const logger = require("@ylz/logger");
 function parseAxiosError(err) {
     let errLog = {
         message: err.message,
