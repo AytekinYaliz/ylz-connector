@@ -1,4 +1,4 @@
-import * as logger from "@dan/dan-logger";
+import * as logger from "@ylz/logger";
 
 export function parseAxiosError(err) {
   let errLog = {
